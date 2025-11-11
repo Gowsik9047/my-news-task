@@ -1,14 +1,10 @@
-
-
-
-import React from "react";
 import NewsCard from "../NewsCard/newscard";
 import featuredData from "../../Data/datafeatured";
 
-export default function FeaturedNews() {
-  // const [hero, ...rest] = featuredData;
-  // const side = rest.slice(0, 2);
-  // const smalls = rest.slice(2);
+function FeaturedNews() {
+  const [hero, ...rest] = featuredData;
+  const side = rest.slice(0, 2);
+  const smalls = rest.slice(2);
 
   return (
     <section className="featured-wrapper">
@@ -18,19 +14,19 @@ export default function FeaturedNews() {
         </div>
 
         <div className="side-col">
-          {/* {side.map((s) => ( */}
-            <></>
-            {/* // <NewsCard key={s.id} article={s} variant="side" /> */}
-          {/* ))} */}
+          {/* {side.map((s) => (
+            <NewsCard key={s.id} article={s} variant="side" />
+          ))} */}
         </div>
       </div>
 
       <div className="small-grid">
-        {/* {smalls.map((s) => ( */}
-          <></>
-          {/* // <NewsCard key={s.id} article={s} variant="small" /> */}
-        {/* ))} */}
+        {/* {smalls.map((s) => (
+          <NewsCard key={s.id} article={s} variant="small" />
+        ))} */}
       </div>
     </section>
   );
 }
+
+export default FeaturedNews;

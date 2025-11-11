@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function NewsCard({ article, variant = "small" }) {
+function NewsCard({ article, variant = "small" }) {
   return (
     <article
       className={`news-card news-card-${variant}`}
@@ -28,3 +28,5 @@ export default function NewsCard({ article, variant = "small" }) {
     </article>
   );
 }
+
+export default NewsCard;
