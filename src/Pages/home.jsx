@@ -1,4 +1,4 @@
-// import Navbar from "../Components/Navbar/navbar";
+import Navbar from "../Components/Navbar/navbar";
 // import LiveTicker from "../Components/LiveTicker/liveticker";
 // import AdBanner from "../Components/AdBanner/adbanner";
 // import FeaturedNews from "../Components/FeaturedNews/featurednews";
@@ -7,12 +7,11 @@
 function Home() {
   return (
     <>
-      <h1>Home Page</h1>
-      {/* <Navbar />
-      <LiveTicker />
-      <FeaturedNews />
-      <AdBanner />
-      <NewsGrid /> */}
+      <Navbar />
+      {/* <LiveTicker /> */}
+      {/* <FeaturedNews /> */}
+      {/* <AdBanner /> */}
+      {/* <NewsGrid /> */}
     </>
   );
 }
