@@ -1,17 +1,18 @@
-import Navbar from "../Components/Navbar/navbar";
-import LiveTicker from "../Components/LiveTicker/liveticker";
-import AdBanner from "../Components/AdBanner/adbanner";
-import FeaturedNews from "../Components/FeaturedNews/featurednews";
-import NewsGrid from "../Components/NewsGrid/newsgrid";
+// import Navbar from "../Components/Navbar/navbar";
+// import LiveTicker from "../Components/LiveTicker/liveticker";
+// import AdBanner from "../Components/AdBanner/adbanner";
+// import FeaturedNews from "../Components/FeaturedNews/featurednews";
+// import NewsGrid from "../Components/NewsGrid/newsgrid";
 
 function Home() {
   return (
     <>
-      <Navbar />
+      <h1>Home Page</h1>
+      {/* <Navbar />
       <LiveTicker />
       <FeaturedNews />
       <AdBanner />
-      <NewsGrid />
+      <NewsGrid /> */}
     </>
   );
 }

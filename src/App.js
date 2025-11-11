@@ -1,10 +1,11 @@
 
 import './App.css';
+import Home from './Pages/home.jsx';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to My React App</h1>
+      <Home />
     </div>
   );
 }
