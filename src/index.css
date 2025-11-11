@@ -176,13 +176,6 @@
   opacity: 0.9;
 }
 
-.featured-wrapper {
-  max-width: 100%;
-  margin: 22px auto;
-  padding: 0 16px;
-  color: #fff;
-}
-
 .top-grid {
   height: 650px;
   display: grid;
@@ -206,7 +199,7 @@
   height: 200px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
+  /* gap: 12px; */
 }
 
 @media (max-width: 768px) {
@@ -406,6 +399,7 @@
     color: #471305;
   }
 }
+
 .news-small-grid-card {
   margin-top: 14px;
   display: grid;
@@ -413,24 +407,10 @@
   gap: 12px;
 }
 
-
-
-
-
-
-
-
-body {
-  font-family: "Noto Sans Tamil", sans-serif;
-  background: #f8f9fa;
-  margin: 0;
-  padding: 20px;
-  color: #fff;
-}
-
 .featured-wrapper {
-  max-width: 1200px;
-  margin: auto;
+  max-width: 100%;
+  margin: 22px auto;
+  padding: 0 16px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -446,6 +426,7 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
+  justify-content: flex-end;
 }
 
 .card img {
@@ -455,15 +436,11 @@ body {
   display: block;
 }
 
-/* Tags style */
 .card-tags {
-  position: absolute;
-  top: 10px;
-  left: 10px;
   display: flex;
+  align-items: center;
   gap: 8px;
   flex-wrap: wrap;
-  z-index: 10;
 }
 
 .tag {
@@ -506,7 +483,7 @@ body {
   justify-content: flex-end;
   min-height: 400px;
   padding: 20px;
-  background: linear-gradient(to top, rgba(0,0,0,0.85) 30%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 30%, transparent 100%);
 }
 
 .hero-card .card-title {
@@ -530,12 +507,6 @@ body {
 }
 
 .video-icon {
-  margin-left: auto;
-  background: #f7b500;
-  color: #222;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-weight: 600;
   cursor: pointer;
 }
 
@@ -545,7 +516,7 @@ body {
   border: none;
   background: #f7b500;
   color: #222;
-  border-radius: 20px;
+  border-radius: 8px;
   font-weight: 700;
   cursor: pointer;
   align-self: flex-start;
@@ -564,7 +535,7 @@ body {
   min-height: 190px;
   position: relative;
   padding: 10px;
-  background: linear-gradient(to top, rgba(0,0,0,0.7) 40%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 40%, transparent 100%);
 }
 
 .medium-card .card-title {
@@ -588,7 +559,7 @@ body {
 .small-card {
   min-height: 150px;
   position: relative;
-  background: linear-gradient(to top, rgba(0,0,0,0.6) 50%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 50%, transparent 100%);
   padding: 10px;
 }
 
@@ -602,19 +573,8 @@ body {
   opacity: 0.8;
 }
 
-/* Position tags on small and medium cards */
-.medium-card .card-tags,
-.small-card .card-tags {
-  position: static;
-  margin-bottom: 6px;
-  gap: 6px;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  display: flex;
-}
-
 /* --- Responsive --- */
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .featured-wrapper {
     padding: 10px;
   }
@@ -643,4 +603,40 @@ body {
   .medium-card {
     min-height: 140px;
   }
+}
+
+.card-img-common {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bg-hero {
+  background-image: url('./assets/images/heading\ image\ 1.jpg');
+}
+
+.bg-side1 {
+  height: 50%;
+  background-image: url('./assets/images/heading\ image\ 2.jpg');
+}
+
+.bg-side2 {
+  height: 50%;
+  background-image: url('./assets/images/heading\ image\ 3.jpg');
+}
+
+.bg-small1 {
+  background-image: url('./assets/images/img1.jpg');
+}
+
+.bg-small2 {
+  background-image: url('./assets/images/img2.jpg');
+}
+
+.bg-small3 {
+  background-image: url('./assets/images/img3.jpg');
+}
+
+.bg-small4 {
+  background-image: url('./assets/images/img4.jpg');
 }
