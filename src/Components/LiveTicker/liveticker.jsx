@@ -7,7 +7,7 @@ function LiveTicker() {
       {/* <marquee behavior="scroll" direction="left">
         உடனடி: மைல்கல் சிவில் உரிமைகள் வழக்கில் நீதிமன்ற தீர்ப்பு
       </marquee> */}
-      {/* <i className="fa-solid fa-close"></i> */}
+      <i className="fa-solid fa-close"></i>
     </div>
   );
 }
