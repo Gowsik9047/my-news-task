@@ -1,5 +1,3 @@
-import React from "react";
-
 function NewsCard({ article, variant = "small" }) {
   return (
     <article
