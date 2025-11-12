@@ -184,7 +184,7 @@ function FeaturedNews() {
           <div className="medium-card card bg-side1 card-img-common">
             <div className="card-tags">
               <span className="tag orange">அவரசெய்தி</span>
-              <span className="tag black">அரசியல்</span>
+              <span className="tag yellow">அரசியல்</span>
             </div>
             <h3 className="card-title">
               வரலாற்று வாக்குரிமை மசோதா மைல்கல் முடிவில் நிறைவேற்றப்பட்டது
@@ -197,7 +197,7 @@ function FeaturedNews() {
           <div className="medium-card card bg-side2 card-img-common">
             <div className="card-tags">
               <span className="tag red">நேரலை</span>
-              <span className="tag purple">கலாச்சாரம்</span>
+              <span className="tag yellow">கலாச்சாரம்</span>
             </div>
             <h3 className="card-title">
               கலாச்சார திருவிழா பன்முகத்தன்மையும் ஒற்றுமையும் கொண்டாடுகிறது
