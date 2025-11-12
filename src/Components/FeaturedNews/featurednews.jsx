@@ -1,4 +1,4 @@
-// import NewsCard from "../NewsCard/newscard";
+import NewsCard from "../NewsCard/newscard";
 import featuredData from "../../Data/datafeatured";
 
 function FeaturedNews() {
@@ -10,20 +10,20 @@ function FeaturedNews() {
     <section className="featured-wrapper">
       <div className="top-grid">
         <div className="hero">
-          {/* <NewsCard article={hero} variant="hero" /> */}
+          <NewsCard article={hero} variant="hero" />
         </div>
 
         <div className="side-col">
-          {/* {side.map((s) => (
+          {side.map((s) => (
             <NewsCard key={s.id} article={s} variant="side" />
-          ))} */}
+          ))}
         </div>
       </div>
 
       <div className="small-grid">
-        {/* {smalls.map((s) => (
+        {smalls.map((s) => (
           <NewsCard key={s.id} article={s} variant="small" />
-        ))} */}
+        ))}
       </div>
     </section>
   );
